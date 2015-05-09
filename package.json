@@ -1,0 +1,19 @@
+{
+  "name": "angullax",
+  "version": "0.0.1",
+  "description": "An angularjs directive to create parallax scroll",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rahejar/angullax.git"
+  },
+  "author": "Rohit Raheja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahejar/angullax/issues"
+  },
+  "homepage": "https://github.com/rahejar/angullax"
+}
