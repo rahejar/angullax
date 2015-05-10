@@ -1,0 +1,30 @@
+.angullax .nav-bar {
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	text-align: center;
+	position: fixed;
+}
+
+.angullax .nav-bar .nav-item {
+	display: inline-block;
+	color: #fff;
+	padding: 0 15px;
+	font-size: 1.3em;
+	line-height: 2.9em;
+	cursor: pointer;
+}
+
+.angullax .nav-bar .nav-item:hover,
+.angullax .nav-bar .nav-item.active {
+	background-color: #2e2e2e;
+}
+
+.angullax section.page-content {
+	height: auto;
+	min-height: 100vh;
+}
+
+.angullax section.page-content:first-child {
+	background-color: yellow;
+}

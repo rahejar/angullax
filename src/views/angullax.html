@@ -1,0 +1,17 @@
+<div class="angullax">
+	<header>
+		<nav class="nav-bar">
+			<li class="nav-item"
+				ng-repeat="item in navItems"
+				ng-class="{'active': selectedTab == $index}"
+				ng-click="goToPage($index)">
+					{{item.heading}}
+			</li>
+		</nav>
+	</header>
+	<section ng-repeat="page in navItems"
+	 		data-role="page"
+	 		class="page-content"
+	 		id="{{page.id}}">
+	</section>
+</div>
