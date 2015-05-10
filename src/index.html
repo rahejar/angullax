@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="DemoApp">
+	<head>
+		<style type="text/css">
+			body, html {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			}
+
+			.page {
+				padding: 50px;
+				text-align: center;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="styles/angullax.css">
+	</head>
+	<body ng-controller="DemoCtrl">
+
+		<angullax>
+			<section data-role="nav-page" heading="Home" color="fdbd12">
+				<div class="page">
+					<h1>Home Page</h1>
+				</div>
+			</section>
+
+			<section data-role="nav-page" heading="About" color="b1e1ed">
+				<div class="page">
+					<h1>About Page</h1>
+				</div>
+			</section>
+
+			<section data-role="nav-page" heading="Reports" color="FB8261">
+				<div class="page">
+					<h1>Reports Page</h1>
+				</div>
+			</section>
+
+		</angullax>
+
+
+
+
+		<script type="text/javascript" src="../externs/angular.min.js"></script>
+		<script type="text/javascript" src="../externs/jquery.min.js"></script>
+		<script type="text/javascript" src="script/angullax.js"></script>
+
+		<script type="text/javascript">
+			var DemoApp = angular.module( 'DemoApp', [ 'angullax' ] );
+			DemoApp.controller( 'DemoCtrl', [ '$scope', function ( $scope ) {
+				$scope.name = 'rohit';
+			} ] );
+		</script>
+
+	</body>
+</html>
