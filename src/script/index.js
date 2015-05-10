@@ -1,3 +1,3 @@
 'use strict';
 
-var angullax = angular.module( 'angullax', [] );
+angular.module( 'angullax', [] );

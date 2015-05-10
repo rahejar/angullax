@@ -2,9 +2,7 @@
   "name": "angullax",
   "version": "0.0.1",
   "homepage": "https://github.com/rahejar/angullax",
-  "authors": [
-    "Rohit Raheja <rohitraheja88@gmail.com>"
-  ],
+  "author": "Rohit Raheja <rohitraheja88@gmail.com>",
   "description": "An angularjs directive to create parallax scroll",
   "license": "MIT",
   "private": true,
