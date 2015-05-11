@@ -6,6 +6,9 @@
  */
 'use strict';
 
+angular.module( 'angullax', [] );
+'use strict';
+
 angular.module( 'angullax' )
 	.directive( 'angullax', [ '$interpolate', '$timeout',
 	 function ( $interpolate, $timeout ) {
@@ -62,6 +65,3 @@ angular.module( 'angullax' )
 		};
 
 	} ] );
-'use strict';
-
-angular.module( 'angullax', [] );

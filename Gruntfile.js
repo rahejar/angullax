@@ -33,7 +33,7 @@ module.exports = function( grunt ) {
 				banner: '<%= meta.banner %>'
 			},
 			dist: {
-				src: 'src/script/*.js',
+				src: [ 'src/script/index.js', 'src/script/angullax.js' ],
 				dest: 'dist/js/<%= pkg.name %>.js'
 			}
 		},
